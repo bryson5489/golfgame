@@ -25,4 +25,5 @@ if (play === 6) {
   const total2 = hole1 + hole2 + hole3 + hole4 + hole5 + hole6;
   const final2 = total2 - par2;
   console.log(`Good game, ${name}! Your total par was: ${final2}`);
+  document.querySelector(".total").textContent = final2;
 }
